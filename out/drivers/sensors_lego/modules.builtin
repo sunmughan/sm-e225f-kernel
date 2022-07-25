@@ -1,0 +1,2 @@
+kernel/drivers/sensors_lego/isg5320a.ko
+kernel/drivers/sensors_lego/isg5320a_sub.ko

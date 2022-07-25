@@ -1,10 +1,10 @@
 #!/bin/bash
 
-export CROSS_COMPILE=$(pwd)/../PLATFORM/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-
-export CC=$(pwd)/../PLATFORM/prebuilts/clang/host/linux-x86/clang-r450784e/bin/clang
-export CLANG_TRIPLE=aarch64-linux-gnu-
+export CROSS_COMPILE="${PWD}/los-4.9-64/bin/aarch64-linux-gnu-"
+export CC="${PWD}/clang"
+export CLANG_TRIPLE="${PWD}/los-4.9-64/bin/aarch64-linux-gnu-"
 export ARCH=arm64
-export ANDROID_MAJOR_VERSION=r
+export ANDROID_MAJOR_VERSION=s
 
 export KCFLAGS=-w
 export CONFIG_SECTION_MISMATCH_WARN_ONLY=y

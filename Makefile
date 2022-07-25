@@ -1911,6 +1911,7 @@ endif
 
 endif	# skip-makefile
 
+EXTRA_CFLAGS += -DCONFIG_ALWAYS_ENFORCE=false
 PHONY += FORCE
 FORCE:
 
